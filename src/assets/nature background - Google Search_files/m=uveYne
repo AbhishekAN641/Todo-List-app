@@ -1,0 +1,7 @@
+"use strict";loaded_1_12(function(_){var window=this;
+_.k("uveYne");
+var gmm=function(a,b,c){a.sessionStorage.set(b,c)},hmm=class{constructor(){this.cache=new Set}},imm=new hmm;_.jmm=class extends _.zh{static hb(){return{model:{Xl:_.gy},service:{sXa:_.s7d,Pl:_.Xx,iz:_.N3d}}}constructor(a){super(a.Ya);this.oa=_.fy(a.model.Xl);this.Pl=a.service.Pl;this.Ja=a.service.sXa}La(a){const b=this.Ka().Ab();gmm(this.Ja,this.oa,this.Ea());imm.cache.has(this.oa)?b.style.animation="none":(imm.cache.add(this.oa),b.addEventListener("animationend",()=>{b.style.animation="none"}),b.addEventListener("animationcancel",()=>{b.style.animation="none"}));a.data.sCb&&_.wRb(this.Pl,this.oa)}Ea(){const a=
+{};var b=_.cv(_.dv(this.Ka(),"N9Xkfe"));for(const c of b){b=c.dataset.ved;const d=c.dataset.tbnid;b&&d&&(a[d]=b)}return a}Ga(a){_.M3d(a.targetElement)}Aa(){}};_.G(_.jmm.prototype,"NMdhcc",function(){return this.Aa});_.G(_.jmm.prototype,"SjNcmb",function(){return this.Ga});_.G(_.jmm.prototype,"Rq6fF",function(){return this.Ea});_.G(_.jmm.prototype,"DmdRif",function(){return this.La});_.bv(_.T5a,_.jmm);
+_.l();
+});
+// Google Inc.
